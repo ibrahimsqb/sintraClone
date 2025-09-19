@@ -15,8 +15,10 @@ const BusinessHero = () => {
         {/* Map */}
         <img src={map} alt="map" className="w-full max-w-5xl h-auto" />
 
-        {/* Bot */}
-        <img src={antennaBot} alt="bot" className="absolute bottom-10 md:bottom-20 left-1/2 -translate-x-1/2 w-40 md:w-72" />
+        {/* Bot - centered overlay */}
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none">
+          <img src={antennaBot} alt="bot" className="w-32 sm:w-40 md:w-72" />
+        </div>
       </div>
     </div>
   );
