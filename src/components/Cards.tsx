@@ -1,4 +1,3 @@
-import React from "react";
 import cardPic1 from "../assets/cardPic1.png";
 import cardPic2 from "../assets/cardPic2.png";
 

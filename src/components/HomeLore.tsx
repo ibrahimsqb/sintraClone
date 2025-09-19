@@ -1,5 +1,4 @@
 import { useEffect, useRef } from 'react'
-import LoreBot from '../assets/LoreBot.jpg'
 import LoreBot2 from '../assets/loreBot2.png'
 
 export function HomeLore() {

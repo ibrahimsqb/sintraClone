@@ -1,4 +1,3 @@
-import React from "react";
 import handPhone from "../assets/handPhone.png";
 
 const KnowledgeHero = () => {
